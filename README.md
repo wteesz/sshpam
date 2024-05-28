@@ -94,11 +94,15 @@ make时报错
 
 ![image-20220808113550564](./img/error.png)
 
-需下载 libpam0g-dev
+ubuntu 需下载 libpam0g-dev
 
 ```
 apt-get install libpam0g-dev
 ```
 
+centos 需下载 pam-devel
 
+```
+yum install pam-devel
+```
 
