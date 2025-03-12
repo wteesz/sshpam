@@ -73,7 +73,9 @@ example.so: example.c
 
 ![image-20220808113550564](./img/make.png)
 
-Ubuntu将生成的example.so文件复制到/lib/security;centos将文件放入/lib64/security目录下，没有该目录的话就创建一个
+Ubuntu 将生成的example.so文件复制到/lib/security;
+centos  将文件放入/lib64/security目录下，没有该目录的话就创建一个
+debian 位于 /usr/lib/x86_64-linux-gnu/security/
 
 最终的明文密码放在/tmp/example.txt文件中
 
